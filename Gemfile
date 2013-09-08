@@ -47,3 +47,6 @@ end
 group :production do
   gem 'pg'
 end
+
+gem 'pdf-reader'
+gem 'delayed_job_active_record', '~>4.0.0.beta1'
